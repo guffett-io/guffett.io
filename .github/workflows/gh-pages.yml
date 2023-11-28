@@ -7,8 +7,6 @@ permissions:
   repository-projects: write
   security-events: write
   statuses: write
-  vulnerability-alerts: write
-  workflows: write
 on:
   push:
     branches:
