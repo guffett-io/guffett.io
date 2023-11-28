@@ -1,0 +1,78 @@
+baseURL: "https://guffett.io/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Guffett"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Guffett"
+  description: "Discover the Future of Stock Market Analysis with Guffett.io. Our platform uniquely combines the power of ChatGPT and advanced AI to analyze stock news and social media posts, offering unparalleled insights into stock market trends. With Guffett.io, you're not just reading the market sentiment; you're understanding its impact on your investments."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  contact:
+    - "admin@guffett.io"
+
+  copyright: "© 2023 Guffett Technology Inc. All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How it Works"
+      url: "/#portfolio"
+      weight: 2
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 3
+    
+    - name: "Testimonials"
+      url: "/#testimonials"
+      weight: 4
+
+  buttons:
+    - name: "Free Trial"
+      url: "https://app.guffett.io"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How it Works"
+      url: "/#portfolio"
+      weight: 2
+
+    - name: "Pricing"
+      url: "/#"
+      weight: 3
+    
+    - name: "Testimonials"
+      url: "/#testimonials"
+      weight: 4
+
+taxonomies:
+  series: "series"
+  tags: "tags"
