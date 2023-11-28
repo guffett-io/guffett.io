@@ -1,5 +1,14 @@
 name: github pages
-
+permissions:
+  contents: read
+  issues: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+  vulnerability-alerts: write
+  workflows: write
 on:
   push:
     branches:
