@@ -1,0 +1,69 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+#[[main]]
+#name = "About"
+#url = "about/"
+#weight = 2
+#
+#[[main]]
+#name = "Elements"
+#url = "elements/"
+#weight = 3
+
+[[main]]
+weight = 2
+name = "How to"
+hasChildren = true
+
+[[main]]
+parent = "How to"
+name = "TBD"
+url = "404/"
+
+[[main]]
+name = "Pricing"
+url = "pricing/"
+weight = 3
+
+#[[main]]
+#parent = "Pages"
+#name = "Contact"
+#url = "contact/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Authors"
+#url = "authors/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Categories"
+#url = "categories/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "404 Page"
+#url = "404/"
+
+
+# footer menu
+[[footer]]
+name = "Terms of Use"
+url = "tos/"
+weight = 1
+
+[[footer]]
+name = "Disclaimer"
+url = "disclaimer/"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "privacy-policy/"
+weight = 3
