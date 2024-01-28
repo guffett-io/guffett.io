@@ -6,45 +6,50 @@ name = "Home"
 url = "/"
 weight = 1
 
+#[[main]]
+#name = "About"
+#url = "about/"
+#weight = 2
+#
+#[[main]]
+#name = "Elements"
+#url = "elements/"
+#weight = 3
+
 [[main]]
-name = "About"
-url = "about/"
 weight = 2
-
-[[main]]
-name = "Elements"
-url = "elements/"
-weight = 3
-
-[[main]]
-weight = 4
-name = "Pages"
+name = "How to"
 hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "blog/"
-
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "contact/"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "authors/"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
+parent = "How to"
+name = "TBD"
 url = "404/"
+
+[[main]]
+name = "Pricing"
+url = "pricing/"
+weight = 3
+
+#[[main]]
+#parent = "Pages"
+#name = "Contact"
+#url = "contact/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Authors"
+#url = "authors/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Categories"
+#url = "categories/"
+#
+#[[main]]
+#parent = "Pages"
+#name = "404 Page"
+#url = "404/"
 
 
 # footer menu
@@ -54,8 +59,8 @@ url = "tos/"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "elements/"
+name = "Disclaimer"
+url = "disclaimer/"
 weight = 2
 
 [[footer]]

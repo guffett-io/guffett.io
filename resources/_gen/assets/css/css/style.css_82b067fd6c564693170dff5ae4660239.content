@@ -933,7 +933,7 @@ main {
 }
 .form-input:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(18 18 18 / var(--tw-border-opacity));
+  border-color: rgb(0 99 99 / var(--tw-border-opacity));
   --tw-ring-color: transparent;
 }
 :is(.dark .form-input) {
@@ -974,7 +974,7 @@ main {
   justify-content: center;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity));
   text-align: center;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
@@ -1008,7 +1008,7 @@ main {
   height: 1rem !important;
   width: 1rem !important;
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity)) !important;
 }
 :is(.dark .swiper-pagination-bullet-active) {
   --tw-bg-opacity: 1 !important;
@@ -1496,7 +1496,7 @@ main {
   border-width: 1px;
   border-left-width: 10px;
   --tw-border-opacity: 1;
-  border-color: rgb(18 18 18 / var(--tw-border-opacity));
+  border-color: rgb(0 99 99 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(246 246 246 / var(--tw-bg-opacity));
   padding-left: 2rem;
@@ -1552,7 +1552,7 @@ main {
 }
 .content :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):hover {
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(0 99 99 / var(--tw-text-opacity));
 }
 :is(.dark .content) :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
@@ -1714,7 +1714,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .nav-link:hover {
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(0 99 99 / var(--tw-text-opacity));
 }
 :is(.dark .nav-link) {
   --tw-text-opacity: 1;
@@ -1787,7 +1787,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .nav-dropdown-link:hover {
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(0 99 99 / var(--tw-text-opacity));
 }
 :is(.dark .nav-dropdown-link) {
   --tw-text-opacity: 1;
@@ -1796,55 +1796,6 @@ input#nav-toggle:checked ~ #nav-menu {
 :is(.dark .nav-dropdown-link:hover) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.theme-switcher {
-  display: inline-flex;
-}
-.theme-switcher label {
-  position: relative;
-  display: inline-block;
-  height: 1rem;
-  width: 1.5rem;
-  cursor: pointer;
-  border-radius: 1rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 234 234 / var(--tw-bg-opacity));
-}
-@media (min-width: 1024px) {
-
-  .theme-switcher label {
-    width: 2.5rem;
-  }
-}
-.theme-switcher input {
-  position: absolute;
-  opacity: 0;
-}
-.theme-switcher span {
-  position: absolute;
-  top: -0.25rem;
-  left: 0px;
-  display: flex;
-  height: 1.5rem;
-  width: 1.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: rgb(4 4 4 / var(--tw-bg-opacity));
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
-}
-:is(.dark .theme-switcher span) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-@media (min-width: 1024px) {
-
-  .theme-switcher input:checked + label span {
-    left: 1rem;
-  }
 }
 .btn {
   display: inline-block;
@@ -1874,9 +1825,9 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .btn-primary {
   --tw-border-opacity: 1;
-  border-color: rgb(18 18 18 / var(--tw-border-opacity));
+  border-color: rgb(0 99 99 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -1939,9 +1890,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .left-0 {
   left: 0px;
 }
-.left-\[4px\] {
-  left: 4px;
-}
 .top-0 {
   top: 0px;
 }
@@ -1950,12 +1898,6 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .top-1\.5 {
   top: 0.375rem;
-}
-.top-\[4px\] {
-  top: 4px;
-}
-.z-10 {
-  z-index: 10;
 }
 .z-30 {
   z-index: 30;
@@ -2143,7 +2085,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity));
 }
 .bg-theme-light {
   --tw-bg-opacity: 1;
@@ -2294,7 +2236,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(0 99 99 / var(--tw-text-opacity));
 }
 .text-red-500 {
   --tw-text-opacity: 1;
@@ -2303,12 +2245,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.opacity-0 {
-  opacity: 0;
-}
-.opacity-100 {
-  opacity: 1;
 }
 .bg-gradient {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
@@ -3175,12 +3111,12 @@ input#nav-toggle:checked ~ #nav-menu {
   line-height: 2.25rem;
   border-radius: 6px;
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity));
 }
 
 .share-icons .share-link:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity));
 }
 
 :is(.dark .share-icons .share-link) {
@@ -3381,7 +3317,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(0 99 99 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-theme-light:hover {
@@ -3391,7 +3327,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(0 99 99 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -3452,14 +3388,6 @@ input#nav-toggle:checked ~ #nav-menu {
 :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:opacity-0) {
-  opacity: 0;
-}
-
-:is(.dark .dark\:opacity-100) {
-  opacity: 1;
 }
 
 :is(.dark .dark\:hover\:bg-darkmode-primary:hover) {
