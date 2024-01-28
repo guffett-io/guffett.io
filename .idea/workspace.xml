@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6760bf4b-ccba-4764-b941-4540736a6d6b" name="Changes" comment="use new template">
+    <list default="true" id="6760bf4b-ccba-4764-b941-4540736a6d6b" name="Changes" comment="remove broken content">
+      <change afterPath="$PROJECT_DIR$/content/english/pages/pricing.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/english/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/blog/post-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/english/blog/post-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/blog/post-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/blog/post-3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/blog/post-4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/english/sections/call-to-action.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hugo_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/hugo_stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_82b067fd6c564693170dff5ae4660239.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_82b067fd6c564693170dff5ae4660239.content" afterDir="false" />
     </list>
@@ -24,6 +28,7 @@
 }]]></component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="use new template" />
-    <option name="LAST_COMMIT_MESSAGE" value="use new template" />
+    <MESSAGE value="remove broken content" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove broken content" />
   </component>
 </project>
