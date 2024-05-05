@@ -52,7 +52,7 @@ features:
       link: ""
 
   - title: "Why Choose Guffett.io?"
-    image: "/images/service-3.png"
+    image: "/images/call-to-action.png"
     content: "Our users enjoy a competitive edge in the stock market, thanks to Guffett.io's advanced AI analysis and comprehensive data interpretation. Experience swift, accurate, and deep market insights that translate into informed investment decisions. Hear from our satisfied clients about how Guffett.io has transformed their trading experience."
 #    bulletpoints:
 #    - "Instantly load static sites for better user experience and SEO."
