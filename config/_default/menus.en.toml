@@ -16,15 +16,15 @@ weight = 1
 #url = "elements/"
 #weight = 3
 
-[[main]]
-weight = 2
-name = "How to"
-hasChildren = true
+#[[main]]
+#weight = 2
+#name = "How to"
+#hasChildren = true
 
-[[main]]
-parent = "How to"
-name = "TBD"
-url = "404/"
+#[[main]]
+#parent = "How to"
+#name = "TBD"
+#url = "404/"
 
 [[main]]
 name = "Pricing"
