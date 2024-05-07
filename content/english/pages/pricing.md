@@ -18,7 +18,7 @@ draft: false
 
 ## Basic
 
-Get Daily Stock Prediction of stocks for $20/month
+Get Daily Stock Prediction of stocks for $40/month
 
 {{< button label="Sign Up" link="https://app.guffett.io" style="solid" >}}
 
