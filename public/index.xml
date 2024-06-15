@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guffett.io</title>
+    <link>/</link>
+    <description>Recent content on Guffett.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/sections/testimonial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/sections/testimonial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guffett.io Disclaimer</title>
+      <link>/disclaimer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/disclaimer/</guid>
+      <description>No Investment Advice Provided Informational Purposes Only The stock ratings, signals, and analysis provided by Guffett.</description>
+    </item>
+    <item>
+      <title>Guffett.io Pricing</title>
+      <link>/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pricing/</guid>
+      <description>Basic Get Daily Stock Prediction of stocks for $40/month&#xA;Sign Up </description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/privacy-policy/</guid>
+      <description>Effective Date: 1st Jan 2024&#xA;Introduction At Guffett.io, we are committed to protecting your privacy and ensuring the transparent use of your personal data.</description>
+    </item>
+    <item>
+      <title>Terms of Use</title>
+      <link>/tos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tos/</guid>
+      <description>Effective Date: 1st Jan 2024&#xA;Acceptance of Terms These Terms of Use (&amp;ldquo;Terms&amp;rdquo;) govern your access to and use of Guffett.</description>
+    </item>
+  </channel>
+</rss>
