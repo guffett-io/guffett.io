@@ -2972,15 +2972,62 @@ input#nav-toggle:checked ~ #nav-menu {
   margin-left: 0px !important;
 }
 
-@media (min-width: 540px) {
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap; }
+  .pricing-table .pricing-plan {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px; }
+    @media (min-width: 600px) {
+      .pricing-table .pricing-plan {
+        width: 45%; } }
+    @media (min-width: 900px) {
+      .pricing-table .pricing-plan {
+        width: 30%; } }
+    .pricing-table .pricing-plan:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); }
+    .pricing-table .pricing-plan h3 {
+      margin-top: 0;
+      font-size: 1.5em;
+      color: #333; }
+    .pricing-table .pricing-plan .price {
+      font-size: 2.5em;
+      margin: 10px 0;
+      color: #6a1b9a; }
+    .pricing-table .pricing-plan .features {
+      list-style-type: none;
+      padding: 0; }
+      .pricing-table .pricing-plan .features li {
+        margin: 10px 0;
+        font-size: 1em;
+        color: #666; }
+    .pricing-table .pricing-plan .sign-up-button {
+      background-color: #6a1b9a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease; }
+      .pricing-table .pricing-plan .sign-up-button:hover {
+        background-color: #4a148c; }
+      @media (min-width: 540px) {
 
   .sm\:col-10 {
     flex: 0 0 auto;
     width: 83.33333333333334%;
   }
 }
-
-@media (min-width: 768px) {
+      @media (min-width: 768px) {
 
   .md\:col-5 {
     flex: 0 0 auto;
@@ -3010,8 +3057,7 @@ input#nav-toggle:checked ~ #nav-menu {
     order: 2;
   }
 }
-
-@media (min-width: 1024px) {
+      @media (min-width: 1024px) {
 
   .lg\:col-3 {
     flex: 0 0 auto;
@@ -3037,48 +3083,39 @@ input#nav-toggle:checked ~ #nav-menu {
     order: 1;
   }
 }
-
-:is(.dark .dark\:border-darkmode-border) {
+      :is(.dark .dark\:border-darkmode-border) {
   --tw-border-opacity: 1;
   border-color: rgb(62 62 62 / var(--tw-border-opacity));
 }
-
-:is(.dark .dark\:bg-darkmode-theme-light) {
+      :is(.dark .dark\:bg-darkmode-theme-light) {
   --tw-bg-opacity: 1;
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
 }
-
-:is(.dark .dark\:from-darkmode-body) {
+      :is(.dark .dark\:from-darkmode-body) {
   --tw-gradient-from: #1c1c1c var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(28 28 28 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-
-:is(.dark .dark\:to-darkmode-theme-light) {
+      :is(.dark .dark\:to-darkmode-theme-light) {
   --tw-gradient-to: #222222 var(--tw-gradient-to-position);
 }
-
-:is(.dark .dark\:text-darkmode-dark) {
+      :is(.dark .dark\:text-darkmode-dark) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
-:is(.dark .dark\:text-darkmode-light) {
+      :is(.dark .dark\:text-darkmode-light) {
   --tw-text-opacity: 1;
   color: rgb(180 175 182 / var(--tw-text-opacity));
 }
-
-:is(.dark .dark\:text-darkmode-primary) {
+      :is(.dark .dark\:text-darkmode-primary) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
-:is(.dark .dark\:text-white) {
+      :is(.dark .dark\:text-white) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
-@media (min-width: 540px) {
+      @media (min-width: 540px) {
 
   .sm\:block {
     display: block;
@@ -3093,8 +3130,7 @@ input#nav-toggle:checked ~ #nav-menu {
     background-color: rgb(254 202 202 / var(--tw-bg-opacity));
   }
 }
-
-@media (min-width: 768px) {
+      @media (min-width: 768px) {
 
   .md\:order-1 {
     order: 1;
@@ -3117,8 +3153,7 @@ input#nav-toggle:checked ~ #nav-menu {
     background-color: rgb(254 240 138 / var(--tw-bg-opacity));
   }
 }
-
-@media (min-width: 1024px) {
+      @media (min-width: 1024px) {
 
   .lg\:order-1 {
     order: 1;
@@ -3183,8 +3218,7 @@ input#nav-toggle:checked ~ #nav-menu {
     text-align: right;
   }
 }
-
-@media (min-width: 1280px) {
+      @media (min-width: 1280px) {
 
   .xl\:block {
     display: block;
@@ -3205,8 +3239,7 @@ input#nav-toggle:checked ~ #nav-menu {
     background-color: rgb(191 219 254 / var(--tw-bg-opacity));
   }
 }
-
-@media (min-width: 1536px) {
+      @media (min-width: 1536px) {
 
   .\32xl\:block {
     display: block;
