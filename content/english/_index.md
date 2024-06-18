@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Future of AI Stock Market Analysis"
-  content: "Harness the power of ChatGPT and advanced AI to analyze stock news and social media posts, offering unparalleled insights into stock market trends."
+  title: "Discover AI-Enhanced Stock Trading Strategies"
+  content: "Trade stocks with confidence by following data-driven trends and strategies harnessed by the power of Generative AI  and advanced Machine Learning."
   image: "/images/banner.png"
   button:
     enable: true
@@ -13,7 +13,7 @@ banner:
 features:
   - title: "How Guffett.io Works"
     image: "/images/service-1.png"
-    content: "At Guffett.io, our process begins with comprehensive data collection, where we gather the latest stock news and social media posts. This information is then intricately analyzed by ChatGPT, identifying key market sentiments and trends. The insights are fed into our sophisticated trading algorithms, each trained on historical data, enabling them to predict future market movements with remarkable accuracy."
+    content: "At Guffett.io, our process begins with comprehensive data collection, where we gather the latest stock news and social media posts. This information is then intricately analyzed by Generative AI , identifying key market sentiments and trends. The insights are fed into our sophisticated trading algorithms, each trained on historical data, enabling them to predict future market movements with remarkable accuracy."
     #    bulletpoints:
     #      - "10+ Pre-build pages"
     #      - "95+ Google Pagespeed Score"
