@@ -44,7 +44,7 @@ link = "https://app.guffett.io"
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = false
+enable = true
 primary_color = "#6441a6"
 include_sections = ["blog"]
 show_image = true

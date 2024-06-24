@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6760bf4b-ccba-4764-b941-4540736a6d6b" name="Changes" comment="basic pricing" />
+    <list default="true" id="6760bf4b-ccba-4764-b941-4540736a6d6b" name="Changes" comment="basic pricing">
+      <change afterPath="$PROJECT_DIR$/content/english/blog/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/english/blog/post-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/english/blog/post-2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/english/blog/post-3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/english/blog/post-4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/menus.en.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/menus.en.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/module.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/module.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/_default/params.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config/_default/params.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/hugo_stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/style-lazy.css_4aa64dfd10aad995c159f67739a2e5c7.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/style-lazy.css_4aa64dfd10aad995c159f67739a2e5c7.content" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_82b067fd6c564693170dff5ae4660239.content" beforeDir="false" afterPath="$PROJECT_DIR$/resources/_gen/assets/css/css/style.css_82b067fd6c564693170dff5ae4660239.content" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2bar19Xlu48ueq6N1h8fIDKT5ZX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,7 +49,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Users/dzou",
+    "last_opened_file_path": "/Volumes/storage/git/guffett.io",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -65,6 +78,8 @@
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {
+    },
     {
     }
   ],
