@@ -168,3 +168,6 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
+[[params.plugins.js]]
+link = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+lazy = true

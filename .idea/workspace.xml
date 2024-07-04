@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6760bf4b-ccba-4764-b941-4540736a6d6b" name="Changes" comment="add some blogs">
+    <list default="true" id="6760bf4b-ccba-4764-b941-4540736a6d6b" name="Changes" comment="feat: new blog post">
+      <change afterPath="$PROJECT_DIR$/content/english/blog/bayesian-approach-to-investment-decisions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/english/blog/beyond-probabilities.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/english/blog/the-bayesian-feedback-loop.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hugo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/hugo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hugo_stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/hugo_stats.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +43,18 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/Volumes/storage/git/guffett.io",
+    "last_opened_file_path": "/Volumes/storage/git/guffett.io/content/english/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ts.external.directory.path": "/Applications/GoLand.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/english/blog" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -61,13 +71,21 @@
     <MESSAGE value="remove broken content" />
     <MESSAGE value="basic pricing" />
     <MESSAGE value="add some blogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some blogs" />
+    <MESSAGE value="feat: let comment" />
+    <MESSAGE value="feat: new blog post" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new blog post" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {
+    },
+    {
+    },
+    {
+    },
     {
     },
     {
