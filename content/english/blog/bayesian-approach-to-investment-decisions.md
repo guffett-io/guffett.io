@@ -6,7 +6,7 @@ date: 2024-07-03T05:00:00Z
 image: "/images/algorithm-trading.png"
 categories: ["Finance", "Technology"]
 author: "guffett.io"
-tags: ["algorithm trading", "technology"]
+tags: ["algorithm trading", "technology", "Bayesian"]
 draft: false
 ---
 

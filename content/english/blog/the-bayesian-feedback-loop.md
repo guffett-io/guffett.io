@@ -2,11 +2,11 @@
 title: "The Bayesian Feedback Loop: Learning from Mistakes to Enhance Investment Strategies"
 meta_title: "The Bayesian Feedback Loop: Learning from Mistakes to Enhance Investment Strategies"
 description: "The Bayesian Feedback Loop: Learning from Mistakes to Enhance Investment Strategies"
-date: 2024-07-04T05:00:00Z
+date: 2024-07-04T06:00:00Z
 image: "/images/algorithm-trading.png"
 categories: ["Finance", "Technology"]
 author: "guffett.io"
-tags: ["algorithm trading", "technology"]
+tags: ["algorithm trading", "technology", "Bayesian"]
 draft: false
 ---
 
