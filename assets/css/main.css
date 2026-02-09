@@ -333,9 +333,81 @@ li {
   margin-bottom: 0;
 }
 
-.contact-block .card {
-  max-width: 560px;
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.35fr);
+  gap: 1.2rem;
+}
+
+.contact-info-card {
   border-left: 4px solid var(--accent);
+}
+
+.contact-points {
+  margin-top: 1rem;
+}
+
+.contact-points li {
+  margin-bottom: 0.7rem;
+}
+
+.contact-form-card h3 {
+  margin-bottom: 0.9rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.66rem 0.72rem;
+  font: inherit;
+  color: var(--text);
+  background: #fcfdff;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: 2px solid rgba(13, 95, 214, 0.2);
+  border-color: var(--accent);
+}
+
+.contact-form button {
+  margin-top: 0.2rem;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(120deg, var(--accent), var(--accent-strong));
+  color: #fff;
+  font: inherit;
+  font-weight: 700;
+  padding: 0.72rem 0.9rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  filter: brightness(1.03);
+}
+
+.contact-note {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
 .site-footer {
@@ -359,7 +431,8 @@ li {
   .hero-grid,
   .columns.two,
   .columns.three,
-  .visual-grid {
+  .visual-grid,
+  .contact-layout {
     grid-template-columns: 1fr;
   }
 

@@ -146,12 +146,43 @@
   <section id="contact" class="section contact-block">
     <div class="container">
       <h2>Contact</h2>
-      <article class="card">
-        <p><strong>{{ $company.name }}</strong></p>
-        <p>Email: {{ $company.email }}</p>
-        <p>Website: {{ $company.website }}</p>
-        <p>{{ $company.location }}</p>
-      </article>
+      <div class="contact-layout">
+        <article class="card contact-info-card">
+          <h3>Let's Talk</h3>
+          <p>Share your project goals, timeline, and technical context. A senior consultant will respond promptly.</p>
+          <ul class="contact-points">
+            <li><strong>Email:</strong> {{ $company.email }}</li>
+            <li><strong>Location:</strong> {{ $company.location }}</li>
+          </ul>
+        </article>
+        <article class="card contact-form-card">
+          <h3>Send an Inquiry</h3>
+          <form class="contact-form" method="POST" action="{{ .Site.Params.contact_form_action }}">
+            <input type="hidden" name="_subject" value="New inquiry from guffett.io">
+            <input type="hidden" name="_next" value="{{ .Site.Params.contact_form_success }}">
+            <input type="hidden" name="_captcha" value="false">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" required>
+            <label for="email">Work Email</label>
+            <input id="email" name="email" type="email" required>
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Consulting & Advisory</option>
+              <option>Architecture & Design</option>
+              <option>Cloud & Platform Delivery</option>
+              <option>AI Agents & Intelligent Automation</option>
+              <option>Other</option>
+            </select>
+            <label for="message">Project Brief</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your business objectives, scope, and timelines." required></textarea>
+            <button type="submit">Submit Inquiry</button>
+          </form>
+          <p class="contact-note">Update <code>contact_form_action</code> in <code>hugo.toml</code> with your Formspree endpoint.</p>
+        </article>
+      </div>
     </div>
   </section>
 {{ end }}

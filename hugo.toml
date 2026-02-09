@@ -8,6 +8,8 @@ disableKinds = ["taxonomy", "term", "rss"]
 [params]
   description = "Technology consulting and advisory with design-led delivery for enterprise and cloud-native systems."
   company = "Guffett Technology Inc."
+  contact_form_action = "https://formspree.io/f/mqedaevb"
+  contact_form_success = "https://guffett.io/#contact"
 
 [[menu.main]]
   name = "Overview"
