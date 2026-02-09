@@ -1,188 +1,190 @@
 {{ define "main" }}
-  {{ $company := site.Data.company }}
-  {{ $logo := resources.Get "images/logo.png" }}
-  {{ $logoLarge := $logo }}
-  {{ if $logo }}
-    {{ $logoLarge = $logo.Resize "300x" }}
-  {{ end }}
+{{ $company := site.Data.company }}
+{{ $logo := resources.Get "images/logo.png" }}
+{{ $logoLarge := $logo }}
+{{ if $logo }}
+{{ $logoLarge = $logo.Resize "300x" }}
+{{ end }}
 
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <p class="eyebrow">Technology Consulting & Advisory</p>
-        <h1>{{ $company.name }}</h1>
-        <p class="hero-copy">{{ $company.tagline }}</p>
-        <div class="hero-facts">
-          <span>Corporation Number: {{ $company.corporation_number }}</span>
-          <span>Incorporated: {{ $company.incorporated }}</span>
-        </div>
-      </div>
-      <div class="hero-logo">
-        {{ if $logoLarge }}
-          <img src="{{ $logoLarge.RelPermalink }}" alt="{{ $company.name }} logo" width="220" height="220">
-        {{ end }}
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Technology Consulting & Advisory</p>
+      <h1>{{ $company.name }}</h1>
+      <p class="hero-copy">{{ $company.tagline }}</p>
+      <div class="hero-facts">
+        <span>Corporation Number: {{ $company.corporation_number }}</span>
+        <span>Incorporated: {{ $company.incorporated }}</span>
       </div>
     </div>
-  </section>
-
-  <section id="overview" class="section">
-    <div class="container">
-      <h2>Company Overview</h2>
-      <div class="prose">
-        {{ range $company.overview }}
-          <p>{{ . }}</p>
-        {{ end }}
-      </div>
+    <div class="hero-logo">
+      {{ if $logoLarge }}
+      <img src="{{ $logoLarge.RelPermalink }}" alt="{{ $company.name }} logo" width="220" height="220">
+      {{ end }}
     </div>
-  </section>
+  </div>
+</section>
 
-  <section id="services" class="section section-alt">
-    <div class="container">
-      <h2>Consulting & Delivery Services</h2>
-      <div class="columns two">
-        <article class="card">
-          <h3>Consulting & Advisory Services</h3>
-          <ul>
-            {{ range $company.advisory_services }}
-              <li>{{ . }}</li>
-            {{ end }}
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Core Delivery Services</h3>
-          <ul>
-            {{ range $company.core_delivery_services }}
-              <li>{{ . }}</li>
-            {{ end }}
-          </ul>
-        </article>
-      </div>
-      <article class="card top-gap">
-        <h3>Specialized Capabilities</h3>
-        <ul class="chip-list">
-          {{ range $company.specialized_capabilities }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </article>
+<section id="overview" class="section">
+  <div class="container">
+    <h2>Company Overview</h2>
+    <div class="prose">
+      {{ range $company.overview }}
+      <p>{{ . }}</p>
+      {{ end }}
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section">
-    <div class="container columns two">
+<section id="services" class="section section-alt">
+  <div class="container">
+    <h2>Consulting & Delivery Services</h2>
+    <div class="columns two">
       <article class="card">
-        <h2>Engagement Models</h2>
+        <h3>Consulting & Advisory Services</h3>
         <ul>
-          {{ range $company.engagement_models }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-      </article>
-      <article class="card">
-        <h2>Delivery & Partnering Model</h2>
-        <p>Each engagement is led directly by Guffett Technology's founding partners, who act as lead consultants and accountable owners, responsible for:</p>
-        <ul>
-          {{ range $company.delivery_model }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
-        <p>To scale efficiently, we collaborate with carefully selected partner teams operating under our architecture principles, coding standards, security policies and quality frameworks.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="section section-alt">
-    <div class="container">
-      <h2>Why Guffett Technology</h2>
-      <ul class="usp-list">
-        {{ range $company.usp }}
+          {{ range $company.advisory_services }}
           <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Core Delivery Services</h3>
+        <ul>
+          {{ range $company.core_delivery_services }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </article>
+    </div>
+    <article class="card top-gap">
+      <h3>Specialized Capabilities</h3>
+      <ul class="chip-list">
+        {{ range $company.specialized_capabilities }}
+        <li>{{ . }}</li>
         {{ end }}
       </ul>
-    </div>
-  </section>
+    </article>
+  </div>
+</section>
 
-  <section id="focus" class="section">
-    <div class="container">
-      <h2>Professional Focus Areas</h2>
-      <div class="visual-grid">
-        {{ range $company.focus_areas }}
-          {{ $title := .title }}
-          {{ $description := .description }}
-          {{ $image := resources.Get .image }}
-          <article class="card visual-card">
-            {{ with $image }}
-              <img src="{{ .RelPermalink }}" alt="{{ $title }}" loading="lazy">
-            {{ end }}
-            <h3>{{ $title }}</h3>
-            <p>{{ $description }}</p>
-          </article>
+<section class="section">
+  <div class="container columns two">
+    <article class="card">
+      <h2>Engagement Models</h2>
+      <ul>
+        {{ range $company.engagement_models }}
+        <li>{{ . }}</li>
         {{ end }}
-      </div>
-    </div>
-  </section>
+      </ul>
+    </article>
+    <article class="card">
+      <h2>Delivery & Partnering Model</h2>
+      <p>Each engagement is led directly by Guffett Technology's founding partners, who act as lead consultants and
+        accountable owners, responsible for:</p>
+      <ul>
+        {{ range $company.delivery_model }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      <p>To scale efficiently, we collaborate with carefully selected partner teams operating under our architecture
+        principles, coding standards, security policies and quality frameworks.</p>
+    </article>
+  </div>
+</section>
 
-  <section class="section section-alt">
-    <div class="container columns two">
-      <article class="card">
-        <h2>Industries Served</h2>
-        <ul>
-          {{ range $company.industries_served }}
-            <li>{{ . }}</li>
-          {{ end }}
+<section class="section section-alt">
+  <div class="container">
+    <h2>Why Guffett Technology</h2>
+    <ul class="usp-list">
+      {{ range $company.usp }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section id="focus" class="section">
+  <div class="container">
+    <h2>Professional Focus Areas</h2>
+    <div class="visual-grid">
+      {{ range $company.focus_areas }}
+      {{ $title := .title }}
+      {{ $description := .description }}
+      {{ $image := resources.Get .image }}
+      <article class="card visual-card">
+        {{ with $image }}
+        <img src="{{ .RelPermalink }}" alt="{{ $title }}" loading="lazy">
+        {{ end }}
+        <h3>{{ $title }}</h3>
+        <p>{{ $description }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container columns two">
+    <article class="card">
+      <h2>Industries Served</h2>
+      <ul>
+        {{ range $company.industries_served }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </article>
+    <article class="card">
+      <h2>Quality & Governance</h2>
+      <ul>
+        {{ range $company.quality_governance }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="section contact-block">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="contact-layout">
+      <article class="card contact-info-card">
+        <h3>Let's Talk</h3>
+        <p>Share your project goals, timeline, and technical context. A senior consultant will respond promptly.</p>
+        <ul class="contact-points">
+          <li><strong>Email:</strong> {{ $company.email }}</li>
+          <li><strong>Location:</strong> {{ $company.location }}</li>
         </ul>
       </article>
-      <article class="card">
-        <h2>Quality & Governance</h2>
-        <ul>
-          {{ range $company.quality_governance }}
-            <li>{{ . }}</li>
-          {{ end }}
-        </ul>
+      <article class="card contact-form-card">
+        <h3>Send an Inquiry</h3>
+        <form class="contact-form" method="POST" action="{{ .Site.Params.contact_form_action }}">
+          <input type="hidden" name="_subject" value="New inquiry from guffett.io">
+          <input type="hidden" name="_next" value="{{ .Site.Params.contact_form_success }}">
+          <input type="hidden" name="_captcha" value="false">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required>
+          <label for="email">Work Email</label>
+          <input id="email" name="email" type="email" required>
+          <label for="company">Company</label>
+          <input id="company" name="company" type="text">
+          <label for="service">Service Needed</label>
+          <select id="service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Consulting & Advisory</option>
+            <option>Architecture & Design</option>
+            <option>Cloud & Platform Delivery</option>
+            <option>AI Agents & Intelligent Automation</option>
+            <option>Other</option>
+          </select>
+          <label for="message">Project Brief</label>
+          <textarea id="message" name="message" rows="5"
+            placeholder="Tell us about your business objectives, scope, and timelines." required></textarea>
+          <button type="submit">Submit Inquiry</button>
+        </form>
       </article>
     </div>
-  </section>
-
-  <section id="contact" class="section contact-block">
-    <div class="container">
-      <h2>Contact</h2>
-      <div class="contact-layout">
-        <article class="card contact-info-card">
-          <h3>Let's Talk</h3>
-          <p>Share your project goals, timeline, and technical context. A senior consultant will respond promptly.</p>
-          <ul class="contact-points">
-            <li><strong>Email:</strong> {{ $company.email }}</li>
-            <li><strong>Location:</strong> {{ $company.location }}</li>
-          </ul>
-        </article>
-        <article class="card contact-form-card">
-          <h3>Send an Inquiry</h3>
-          <form class="contact-form" method="POST" action="{{ .Site.Params.contact_form_action }}">
-            <input type="hidden" name="_subject" value="New inquiry from guffett.io">
-            <input type="hidden" name="_next" value="{{ .Site.Params.contact_form_success }}">
-            <input type="hidden" name="_captcha" value="false">
-            <label for="name">Full Name</label>
-            <input id="name" name="name" type="text" required>
-            <label for="email">Work Email</label>
-            <input id="email" name="email" type="email" required>
-            <label for="company">Company</label>
-            <input id="company" name="company" type="text">
-            <label for="service">Service Needed</label>
-            <select id="service" name="service" required>
-              <option value="">Select a service</option>
-              <option>Consulting & Advisory</option>
-              <option>Architecture & Design</option>
-              <option>Cloud & Platform Delivery</option>
-              <option>AI Agents & Intelligent Automation</option>
-              <option>Other</option>
-            </select>
-            <label for="message">Project Brief</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell us about your business objectives, scope, and timelines." required></textarea>
-            <button type="submit">Submit Inquiry</button>
-          </form>
-          <p class="contact-note">Update <code>contact_form_action</code> in <code>hugo.toml</code> with your Formspree endpoint.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 {{ end }}
