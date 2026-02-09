@@ -1,0 +1,104 @@
+name = "Guffett Technology Inc."
+tagline = "Technology Consulting & Advisory. Design-Led Delivery."
+corporation_number = "1535391-2"
+incorporated = "2023 (Canada)"
+email = "[your company email]"
+website = "[optional]"
+location = "Incorporated in Canada"
+
+overview = [
+  "Guffett Technology Inc. is a technology consulting and advisory firm that partners with organizations to define strategy, architect solutions, and deliver high-quality software systems aligned to business outcomes.",
+  "We engage as trusted technology consultants first, helping clients clarify requirements, assess options, and design scalable architectures before implementation begins.",
+  "Our delivery capabilities span modern business websites to complex enterprise-grade platforms, including CRM systems, document management solutions, workflow management platforms, ERP integrations, financial trading systems, and data-driven applications.",
+  "Our approach emphasizes strong architecture, intuitive user experience, secure engineering practices, and reliable cloud deployment across the full solution lifecycle.",
+  "The founding partners bring 40+ years of combined international experience, serving clients across Canada and the United States in regulated and enterprise environments. Every engagement is directly led by senior consultants, ensuring deep technical insight, governance, accountability, and consistent quality from advisory through production.",
+  "Guffett Technology operates a flexible, scalable consulting-led delivery model, combining senior in-house leadership with trusted partner teams while retaining full design ownership, architectural control, and client-facing responsibility."
+]
+
+advisory_services = [
+  "Technology strategy and roadmap definition",
+  "Architecture assessment and modernization consulting",
+  "Cloud readiness, migration and deployment advisory",
+  "CRM, ERP and enterprise platform advisory",
+  "Quality, performance and security assessments",
+  "Vendor, platform and tool evaluation"
+]
+
+core_delivery_services = [
+  "Custom application design and development",
+  "Software architecture and solution design",
+  "CRM design, customization and integration",
+  "Document management systems",
+  "Workflow and process automation platforms",
+  "ERP integration and enterprise system connectivity",
+  "Web, enterprise and platform applications",
+  "API development and system integrations",
+  "Cloud-native application design and deployment",
+  "Quality engineering and test automation",
+  "Performance, reliability and scalability engineering"
+]
+
+specialized_capabilities = [
+  "Artificial Intelligence (AI) and Machine Learning (ML)",
+  "AI Agents & Intelligent Automation",
+  "Cloud architecture (AWS, Azure, Kubernetes-based platforms)",
+  "Networking and distributed systems",
+  "Security engineering and secure software design",
+  "DevOps, CI/CD and containerized applications"
+]
+
+engagement_models = [
+  "Advisory and consulting engagements",
+  "Design- and architecture-only engagements",
+  "Fixed-scope projects",
+  "Time and material engagements",
+  "Scalable delivery with partner teams"
+]
+
+delivery_model = [
+  "Solution architecture and design",
+  "Technical and strategic decision-making",
+  "Quality, security and performance standards",
+  "Delivery oversight and governance"
+]
+
+usp = [
+  "Consulting-led delivery: senior consultants remain accountable from strategy through execution",
+  "Highest engineering standards: design-first, security-focused, performance-driven solutions",
+  "Professional and transparent engagement: clear communication, governance and ownership",
+  "International quality at competitive value: NRI-led teams delivering global-quality outcomes efficiently",
+  "Trust and accountability: long-term partnerships built on consistency and results",
+  "Proven North American experience: 40+ years of combined experience serving clients in Canada and the USA"
+]
+
+industries_served = [
+  "Financial services and trading platforms",
+  "Insurance and enterprise systems",
+  "CRM, ERP and business process platforms",
+  "Networking and security platforms",
+  "Cloud and SaaS products",
+  "Startup and emerging technology solutions"
+]
+
+quality_governance = [
+  "Architecture and design reviews",
+  "Code quality and security reviews",
+  "Automated testing and quality gates",
+  "Documentation and structured knowledge transfer",
+  "Performance, reliability and scalability validation"
+]
+
+[[focus_areas]]
+title = "Strategy and Advisory"
+description = "Roadmaps, architecture assessments, and technology decisions aligned to measurable business outcomes."
+image = "images/focus-strategy.svg"
+
+[[focus_areas]]
+title = "Design and Engineering"
+description = "Design-led application delivery with security, quality engineering, and reliable integration practices."
+image = "images/focus-engineering.svg"
+
+[[focus_areas]]
+title = "Cloud and Platform Delivery"
+description = "Cloud-native systems, resilient deployments, and scalable platform engineering across modern stacks."
+image = "images/focus-cloud.svg"
