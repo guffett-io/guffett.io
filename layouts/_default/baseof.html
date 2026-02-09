@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  </head>
+  <body>
+    {{ $logo := resources.Get "images/logo.png" }}
+    {{ $logoSmall := $logo }}
+    {{ if $logo }}
+      {{ $logoSmall = $logo.Resize "80x" }}
+    {{ end }}
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="{{ "/" | relLangURL }}">
+          {{ if $logoSmall }}
+            <img src="{{ $logoSmall.RelPermalink }}" alt="{{ .Site.Title }} logo" width="40" height="40">
+          {{ end }}
+          <span>{{ .Site.Title }}</span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-menu">Menu</button>
+        <nav id="main-menu" class="main-menu">
+          <ul>
+            {{ range .Site.Menus.main }}
+              <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>{{ .Site.Title }}</strong>
+          <p>Technology Consulting & Advisory. Design-Led Delivery.</p>
+        </div>
+        <div>
+          <p>Corporation Number: 1535391-2</p>
+          <p>Incorporated: 2023 (Canada)</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const button = document.querySelector('.menu-button');
+      const menu = document.querySelector('#main-menu');
+      if (button && menu) {
+        button.addEventListener('click', () => {
+          const expanded = button.getAttribute('aria-expanded') === 'true';
+          button.setAttribute('aria-expanded', String(!expanded));
+          menu.classList.toggle('open');
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+baseURL = "https://guffett.io/"
+languageCode = "en-CA"
+title = "Guffett Technology Inc."
+
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  description = "Technology consulting and advisory with design-led delivery for enterprise and cloud-native systems."
+  company = "Guffett Technology Inc."
+
+[[menu.main]]
+  name = "Overview"
+  url = "/#overview"
+  weight = 10
+
+[[menu.main]]
+  name = "Services"
+  url = "/#services"
+  weight = 20
+
+[[menu.main]]
+  name = "Focus Areas"
+  url = "/#focus"
+  weight = 30
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 40
